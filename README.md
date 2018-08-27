@@ -12,7 +12,7 @@ npm install angular-block-ui-dynamic --save
 
 ## Quick start
 
-In your application root module definition add import `AngularBlockUiDynamicModule` and the plugin you want to use
+**In your application root module definition add import `AngularBlockUiDynamicModule` and the plugin you want to use**
 
 ```typescript
 import { AngularBlockUiDynamicModule } from 'angular-block-ui-dynamic';
@@ -31,7 +31,7 @@ import { AngularBlockUiDynamicModule } from 'angular-block-ui-dynamic';
 export class AppModule { }
 ```
 
-Add to the html template to display block ui
+**Add to the html template to display block ui**
 
 ```html
     <block-ui-dynamic [visible]='true Or false'>Please wait...</block-ui-dynamic>
