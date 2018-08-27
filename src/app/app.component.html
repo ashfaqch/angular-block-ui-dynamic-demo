@@ -10,7 +10,7 @@
   <div style="position: static;">
     <block-ui-dynamic [visible]='visibleOnFullPage'>
       {{message}}
-      <i class="fa fa-refresh fa-spin fa-lg fa-fw"></i>
+      <fa-icon [icon]="['fas', 'sync']" [spin]="true"></fa-icon>
     </block-ui-dynamic>
   </div>
 
@@ -34,7 +34,7 @@
     <div class="col-sm-6">
       <div class="card">
         <block-ui-dynamic [visible]='visible'>
-          <i class="fa fa-spinner fa-spin fa-lg fa-lg"></i>
+          <fa-icon [icon]="['fas', 'spinner']" [spin]="true"></fa-icon>
         </block-ui-dynamic>
         <div class="card-body">
           <h5 class="card-title">Title</h5>
@@ -56,7 +56,7 @@
       <div class="card">
         <block-ui-dynamic [visible]='visible'>
           {{message}}
-          <i class="fa fa-refresh fa-spin fa-lg fa-fw"></i>
+          <fa-icon [icon]="['fas', 'sync']" [spin]="true"></fa-icon>
         </block-ui-dynamic>
         <div class="card-body">
           <h5 class="card-title">Title</h5>
